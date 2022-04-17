@@ -74,7 +74,7 @@ void MQTT_Client::loop()
       int averageVbat = 0;
       for (int i = 0; i < 20; i++)
       {
-        totalVbat += analogRead(36);
+        totalVbat += analogRead(35);
       }
       averageVbat = totalVbat / 20;
       StaticJsonDocument<128> doc;
