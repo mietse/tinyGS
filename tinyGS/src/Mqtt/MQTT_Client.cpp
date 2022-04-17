@@ -873,7 +873,7 @@ int MQTT_Client::voltage() {
   
   for (int i = 0; i < 22; i++)
   {
-    voltages[i] = analogRead(36); 
+    voltages[i] = analogRead(35); 
     }
   
   //    BubbleSortAsc   from https://www.luisllamas.es/arduino-bubble-sort/
